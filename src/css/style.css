@@ -29,7 +29,7 @@ a.links {
 
 }
 
-/* content que contem os formulários */
+/* content que contem os formulï¿½rios */
 .content {    
     width: 350px;    
     margin: 0px auto;    
@@ -37,7 +37,7 @@ a.links {
     
 }
 
-/* formatando o cabeçalho dos formulários */
+/* formatando o cabeï¿½alho dos formulï¿½rios */
 h1 {
     font-size: 48px;
     color: #E39A42;
@@ -105,7 +105,7 @@ input:not([type="checkbox"]) {
     transition: all 0.2s linear;
 }
 
-/*estilo do botão submit */
+/*estilo do botï¿½o submit */
 input[type="submit"] {
     width: 100% !important;
     cursor: pointer;
@@ -127,8 +127,23 @@ input[type="submit"]:hover {
     background: #E39A42;
 }
 
-/*marcando os links para mudar de um formulário para outro */
+/*marcando os links para mudar de um formulï¿½rio para outro */
 .link {
+    position: absolute;
+    background: #7a7a7a;
+    color: #090909;
+    left: 0px;
+    height: 23px;
+    width: 290px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px;
+    text-align: right;
+    /* border-top: 1px solid #dbe5e8; */
+
+
+}
+
+.link_login {
     position: absolute;
     background: #7a7a7a;
     color: #090909;
@@ -158,13 +173,34 @@ input[type="submit"]:hover {
     transition: all 0.4s linear;
 }
 
+.link_login a {
+    font-weight: bold;
+    background: #E39A42;
+    padding: 6px 35px;
+    color: rgb(0, 2, 147);
+    margin-left: 10px;
+    border: 1px solid #cbd518;
+
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
 .link a:hover {
     color: #000000;
     background: #f7f7f7;
     border: 1px solid #4ab3c6;
 }
 
-/* estilos para para ambos os formulários */
+.link_login a:hover {
+    color: #000000;
+    background: #f7f7f7;
+    border: 1px solid #4ab3c6;
+}
+
+/* estilos para para ambos os formulï¿½rios */
 
 
 #login {
