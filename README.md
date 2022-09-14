@@ -11,4 +11,4 @@ No modelo de domínio a seguir teremos  as entidades que compõem a aplicação 
 
 Protótipo da tela de login bem simples.
 
-![A Figura 1 Temos a Foto do James Goslin.](https://github.com/Antonio-AF/Projeto_Orcamento/blob/main/src/img/Tela%20de%20Login.png?raw=true)
+![A Figura 1 Temos a Foto do James Goslin.](https://github.com/Antonio-AF/Projeto_Orcamento/blob/main/src/img/Tela_Inicial.png?raw=true)
