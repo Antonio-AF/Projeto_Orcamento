@@ -1,63 +1,154 @@
 <!DOCTYPE html>
-<html lang="PT-br">
+<html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" href="/src/css/style.css">
-  <title>Orçamento On Demand</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icone da pagina -->
+    <link rel="shortcut icon" href="src/img/Logo1.png">
 
+
+    <!-- Pagina de estilo personalizada  -->
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <!-- CSS only  Aqui é o link para o Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <title>Proposta Fácil</title>
 </head>
 
 <body>
 
-  <div class="container">
+    <!-- Menu superior da página -->
+    <div class="container">
 
+        <!-- Imagem do topo Esquerdo  -->
+        <div class="row">
 
-    <a class="links" id="paracadastro"></a>
-    <a class="links" id="paralogin"></a>
+            <div class="col-9">
+                <a href="#" class="logo"><img src="src/img/Logo1.png" width="180" class="p-2" alt=""></a>
+            </div>
 
-    <div class="content">
-      <!--FORMULÁRIO DE LOGIN-->
+            <!-- Imagem do topo Direito -->
+            <div class="col">
+                <a href="#" class="logo"><img src="src/img/Logo1.png" width="180" class="p-2" alt=""></a>
+            </div>
 
-      <div id="login">
-        <form method="post" action="">
-          <h1>Orçamento Ondemand</h1>
-          <p>
-            <label for="nome_login">Usuário</label>
-            <input id="nome_login" name="nome_login" required="required" type="text"
-              placeholder="ex. contato@htmlecsspro.com" />
-          </p>
+        </div>
 
-          <p>
-            <label for="email_login">Senha</label>
-            <input id="email_login" name="email_login" required="required" type="password"
-            placeholder="ex. senha" />
-          </p>
-
-          <p>
-            <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
-            <label for="manterlogado">Manter-me logado</label>
-          </p>
-
-          <p>
-            <input type="submit" value="Logar" />
-          </p>
-
-          <div class="link">
-            Ainda não tem conta?
-            <a href="/src/pages/cadastro.html">Cadastre-se</a>
-          </div>
-
-
-        </form>
-      </div>
-    
-        </form>
-      </div>
     </div>
-  </div>
+
+    <!-- Corpo da pagina -->
+    <div class="container_body">
+        <div class="row mb-6">
+            <div class="col text-center mt-5">
+                <h1>Proposta Fácil</h1><br>
+            </div>
+
+
+            <div class="row mb-5">
+                <div class="col">
+                    <img src="src/img/img1.png" alt="" width="350">
+                    <img src="src/img/Logo2.png" alt="" width="300">
+                </div>
+                <div class="col">
+                    <h2>O que é a Aplicação Proposta Fácil?</h2><br>
+
+                    <p>
+                        Proposta Fácil visa automatizar o ato de
+                        realizar orçamento de mão de obra para pequenas e médias
+                        reformas, isso inclui pinturas e alvenaria, com uma interface
+                        simples a ferramenta traz opção de cadastro do cliente,
+                        calculo de mão de obra do serviço por m², incluindo ou não o material
+                        por parte do executor do serviço. Além de trazer para o profissional
+                        uma área de Dashboard para o controle dos orçamentos emitidos,
+                        tudo isso para ele ter um controle.
+
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row bg-dark problema m-4">
+            <div class="col m-4">
+                <h2>Problema:</h2> <br>
+
+                <p>
+                    Hoje para realizar um orçamento para uma Pequena ou Média reforma, seja ela em um residencia
+                    sala comercial, é preciso solicitar para um profissional como o empreiteiro autonomo vá até
+                    o endereço do cliente, para fazer as medições necessárias, identificar os tipos de serviços
+                    envolvidos, após ele precisa se debruçar nesses dados para chegar no valor a ser cobrado pela
+                    mão de obra, e se o cliente solicitar que na proposta comtemple o mateiral ele vai precisar
+                    calcular na mão as quantidades envilvidas.
+                </p>
+            </div>
+
+            <div class="col p-4 m-4">
+                <img src="src/img/orcamento.jpg" alt="" width="500">
+            </div>
+        </div>
+
+        <div class="row ideia m-4">
+
+            <div class="col p-4 mt-5">
+                <img src="https://gestaoclick.com.br/wp-content/uploads/cadastrar-orcamento.jpg.webp" alt="" width="500">
+            </div>
+            <div class="col m-4">
+                <h2>Ideia:</h2> <br>
+
+                <p style="color:rgb(15, 13, 13); font-weight: bold;">
+                    A Ideia consiste em uma aplicação web, que permita a inserção dos dados do cliente, como nome,
+                    e-mail, telefones, endereço e observações, uma área para a inserção dos serviços aplicados com suas
+                    devidas quantidades e custo por unidade, uma área para a inserção dos materiais a serem utilizados
+                    no serviço, por fim gerar uma proposta/orçamento em formato PDF, para ser enviado ou entregue ao
+                    cliente.
+                    <br><br>
+
+                    Para o controle dos orçamentos emitidos, ganhos, perdidos, em orçamento, teremos uma área de
+                    dashboard para que o profissional consiga fazer uma análise da sua carteira de orçamentos e
+                    clientes.
+                </p>
+            </div>
+        </div>
+
+        <div class="row bg-dark nicho m-4">
+            <div class="col m-4">
+                <h2>Nicho:</h2>
+
+                <p class="mt-5 nicho">
+                    Profissionais ou Clientes, dentro do nicho de profissionais temos, Pintores, Gesseiros,
+                    Carpinteiros,
+                    Assentador de Cerâmica, entre outros profissionais que prestam serviço de reformas, de forma
+                    autônoma
+                    Ou aqueles que possuem uma pequena empresa. Se tratando de clientes, temos todo o tipo de cliente
+                    que deseja
+                    planejar os custos de mão de obra e material para a sua reforma, antes mesmo de chamar um
+                    profissional.
+                </p>
+            </div>
+            <div class="col p-4 m-5">
+                <img src="src/img/Img_Nicho.png" alt="" width="551">
+            </div>
+        </div>
+
+        <div class="footer row bg-black">
+            <div class="col text-center mt-4 p-3">
+                <p class="" style="font-family: Raleway,sans-serif; font-size: 1.5em">Projeto Desenvolvido por</p>
+                <p style="font-family: Raleway,sans-serif; font-size: 1.0em">
+                    Antonio Amaral / Enoque / Felipe <br>
+                    Faculdade CESUSC: Curso de Analise e Desenvolvimento de Sistemas <br>
+                    Turma ADS11 - 1º Semestre
+                </p>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 
